@@ -1,5 +1,4 @@
-/* Ex01 Write your first program, where it prints out "Programming is fun." and moves the cursor to a new line */
-
+/* Chapter3 Ex01 3.1 Write your first program, where it prints out "Programming is fun." and moves the cursor to a new line */
 #include <stdio.h>
 
 int main (void)
