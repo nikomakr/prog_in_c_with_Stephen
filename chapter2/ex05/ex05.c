@@ -1,4 +1,4 @@
-/* What output would you expect from the following program? */
+/* Chapter4 Ex05 What output would you expect from the following program? */
 
 #include <stdio.h>
 
