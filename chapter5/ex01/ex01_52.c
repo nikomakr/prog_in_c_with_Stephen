@@ -10,7 +10,8 @@ int main (void)
     int n, triangularNumber;
 
     triangularNumber = 0;
-    
+ /* format for statement: */
+ /* for ( init_expression; loop_condition; loop_expression ) */
     for ( n = 1; n <= 200; n = n + 1)
         triangularNumber = triangularNumber + n;
 
