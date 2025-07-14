@@ -22,3 +22,12 @@ int main (void)
 
 /* OUTCOME */
 /* The 200th triangular number is 20100 */
+
+/* Comment */
+/* 1 Generally the for expression evaluated first. Usually sets a variable tha will be used inside the loop. It's referred to as index variable. The value is 0 or 1. */
+/* 2 The looping condition is evaluated. If the condition is not satisfied (the expression is FALSE), the loop is immediately terminated. */
+/* 3 Execution continues to the next following in the program. */
+/* 4 The looping expression is evaluated. It used to change the value of the index variable, by adding ot subtracking 1 from it. */
+/* 5 Returns to step 2. */
+
+/* Do NOT put a semicolon after the end of the closing parenthesis of for as it will terminate as it will run only once. */
