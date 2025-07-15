@@ -24,6 +24,22 @@ int main (void)
 }
 
 /* OUTCOME */
+// gcc -o ex01_55 ex01_55.c                                 
+//  ./ex01_55                                                 
+// What triangular number do you want? 12
+// Triangular number 12 is 78
+
+// What triangular number do you want? 25
+// Triangular number 25 is 325
+
+// What triangular number do you want? 50
+// Triangular number 50 is 1275
+
+// What triangular number do you want? 75
+// Triangular number 75 is 2850
+
+// What triangular number do you want? 83
+// Triangular number 83 is 3486
 
 
 /* Comment */
