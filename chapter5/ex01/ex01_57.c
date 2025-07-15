@@ -12,9 +12,9 @@ int main (void)
     int u, v, temp;
     
     printf ("Please type in two nonnegative integers.\n");
-    scanf ("%i%i", &u, &v);
+    scanf ("%i%i", &u, &v); /* The way to request two integers to be given. */
     
-    while ( v != 0 )
+    while ( v != 0 ) /* Mandatory program check as we cannot have division by 0. */
     {
         temp = u % v;
         u = v;
