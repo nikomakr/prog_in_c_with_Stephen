@@ -26,3 +26,19 @@ int main (void)
 /* Comment */
 /* WHILE ( expression is TRUE ) */
 /*      program statement */
+
+/* In other words, this loop executed 5 times or until the count value reaches 6. */
+
+/* Anything can be written either in for or while. Example: */
+
+// FOR ( init_expression; loop_condition; loop_expression )
+//     program statement
+
+// the equivalent is:
+
+// init_expression;
+// WHILE ( loop_condition )
+// {
+//     program_statement
+//     loop_expression;
+// }
