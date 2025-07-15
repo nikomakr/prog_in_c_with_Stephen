@@ -9,7 +9,7 @@ int main (void)
     
     printf ("What triangular number do you want? ");
     scanf ("%i", &number); /* The scanf is a function, which that reads and parses text from standard input. */
-
+/* the & in use of scanf is mandatory. It has to do with pointers, which will be covered later on. */
     triangularNumber = 0;
     
     for ( n = 1; n <= number; ++n )
