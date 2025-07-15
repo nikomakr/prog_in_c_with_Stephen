@@ -2,6 +2,9 @@
 /* 5.7 Finding the Greatest Common Divisor */
 
 /* Program to find the greatest common divisor of two nonnegative integer values */
+
+/* Calculate: temp = u % v; u = v; v = temp; */
+
 #include <stdio.h>
 
 int main (void)
