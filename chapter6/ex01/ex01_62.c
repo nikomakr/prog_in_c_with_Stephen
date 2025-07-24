@@ -9,7 +9,7 @@ int main (void)
     int numberOfGrades, i, grade;
     int gradeTotal = 0;
     int failureCount = 0;
-    float average;
+    float average; /* That variable will store the outcome of the division of two integer, where in maths we know the outcome it can be integer or floating number. */
     
     printf("How many grades will you be entering? ");
     scanf("%i", &numberOfGrades);
@@ -25,7 +25,7 @@ int main (void)
             ++failureCount;
     }
     
-    average = (float) gradeTotal / numberOfGrades;
+    average = (float) gradeTotal / numberOfGrades; /* By placing (float) before a division of two int variables you convert to floating division, where the outcome will be stored without truncating the number. */
     
     printf("\nGrades average = %.2f\n", average);
     printf("Number of failures = %i\n", failureCount);
