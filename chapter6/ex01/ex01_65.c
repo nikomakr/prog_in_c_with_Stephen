@@ -27,3 +27,7 @@ int main (void)
         
     return 0;
 }
+
+/* Comment */
+/* line 19-23 can be replaced by: */
+/* if ((year % 4 == 0  &&  year % 100 != 0))  ||  year % 400 == 0 */
