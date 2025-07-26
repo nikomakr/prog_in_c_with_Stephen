@@ -20,9 +20,7 @@ int main (void)
         printf("%.2f\n", value1 * value2);
     else if (operator == '/')
         printf("%.2f\n", value1 / value2);
-    
-    return 0;
-    
+
     return 0;
 }
 
