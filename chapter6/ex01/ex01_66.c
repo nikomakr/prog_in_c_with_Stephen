@@ -32,3 +32,11 @@ int main (void)
 
 // Sample Input: 0
 // Your Output: Please type in a number: Sign = 0
+
+/* Comment */
+/* The structure of: */
+/* if */
+/* if else */
+/* else */
+/* it will check one by one, so if the first is true then it stops, unless it check the next one if it's true it stops, at the end it has to be else so by default the last is true. */
+/* ^with the above I want to clarify that it's impossible to come true one value in more than one statement. */
