@@ -20,7 +20,8 @@ int main (void)
         case '-':
             printf("%.2f\n", value1 - value2);
             break;
-        case '*':
+        case '*': /* that is called fall-through, so if input is * then do what printf says, */
+        case 'x': /* if operator is x, also do whatever following printf says: */
             printf("%.2f\n", value1 * value2);
             break;
         case '/':
