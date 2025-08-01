@@ -34,6 +34,44 @@ int main (void)
 }
 
 /* OUTCOME */
+// gcc ex01_72.c -o ex01_72
+// ./ex01_72
+// Enter your responses
+// 6
+// 5
+// 8
+// 3
+// 9
+// 6
+// 5
+// 7
+// 15
+// Bad response: 15
+// 5 
+// 5
+// 1
+// 7
+// 4
+// 10
+// 5
+// 5
+// 6
+// 8
+// 9
+
+
+// Rating Number of Responses
+// ------ -------------------
+//    1             1
+//    2             0
+//    3             1
+//    4             1
+//    5             6
+//    6             3
+//    7             2
+//    8             2
+//    9             2
+//   10             1
 
 
 /* Comment */
@@ -128,4 +166,4 @@ int main (void)
 // Summary
 // This pattern clears out any leftover input (up to the end of the line) after a bad or partial input, so the user can enter new data cleanly.
 // The semicolon (;) means the loop body is empty—it just repeats the condition and discards each character read.
-// This is standard, portable C for handling stray or invalid input and works on all platforms.
+// This is standard, portable C for handling stray or invalid input and works on all platforms
