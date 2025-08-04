@@ -81,3 +81,20 @@ int main(void)
 // 	•	They know the smallest base to expect (usually base 2, the worst case).
 // 	•	They know “number of digits needed” is, at most, the number of bits of their type.
 // 	•	A quick estimation (without even formal calculation): “For 64-bit numbers, just allow 64 digits—this is always safe.”
+
+// •	Base 1: Unary numeral system
+// •	Base 2: Binary
+// •	Base 3: Ternary (or Trinary)
+// •	Base 4: Quaternary
+// •	Base 5: Quinary
+// •	Base 6: Senary (or Seximal)
+// •	Base 7: Septenary (or Septimal)
+// •	Base 8: Octal
+// •	Base 9: Nonary
+// •	Base 10: Decimal
+// •	Base 11: Undecimal (or Eleventh)
+// •	Base 12: Duodecimal (or Dozenal)
+// •	Base 13: Tridecimal
+// •	Base 14: Tetradecimal
+// •	Base 15: Pentadecimal
+// •	Base 16: Hexadecimal
