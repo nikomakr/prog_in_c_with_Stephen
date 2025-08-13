@@ -17,26 +17,26 @@ int main (void) /* As always execution starts from main. */
 // Programming is fun.
 
 /* Notes */
-The program consists of two functions, printMessage & main.
-Program execution ALWAYS begins with main function.
+// The program consists of two functions, printMessage & main.
+// Program execution ALWAYS begins with main function.
 
-The braces showcasing to the compiler a function, two in this program.
+// The braces showcasing to the compiler a function, two in this program.
 
-When a function call is executed, program execution is transferred directly to the indicated function.
-So, inside the printMessage function, where the printf statement is executed.
+// When a function call is executed, program execution is transferred directly to the indicated function.
+// So, inside the printMessage function, where the printf statement is executed.
 
-After the message is been displayed, the printMessage is finished. (signaling the closing brace)
+// After the message is been displayed, the printMessage is finished. (signaling the closing brace)
 
-The program returns to the main, where the program execution continues at the point where the function call was executed.
+// The program returns to the main, where the program execution continues at the point where the function call was executed.
 
-1) The first line of the printMessage function tells the compiler that the function returns no value, (first void).
-The second void in the parenthesis (void) says no arguments.
+// 1) The first line of the printMessage function tells the compiler that the function returns no value, (first void).
+// The second void in the parenthesis (void) says no arguments.
 
 /* Comment */
-It is acceptable to insert:
-return;
-statement at the end of the printMessage.
+// It is acceptable to insert:
+// return;
+// statement at the end of the printMessage.
 
-However, reaching the end of a function without executing return has the effect of exiting the function anyway without returning a value.
+// However, reaching the end of a function without executing return has the effect of exiting the function anyway without returning a value.
 
-That means that if for any reason we wanted to exist the printMessage under specific scenario, then we must use return; so to exit the execution of the function. In the current example naturally the execution finishing so return; does nothing additionally. 
+// That means that if for any reason we wanted to exist the printMessage under specific scenario, then we must use return; so to exit the execution of the function. In the current example naturally the execution finishing so return; does nothing additionally. 
