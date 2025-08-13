@@ -5,16 +5,15 @@
 int main (void)
 {
     int number, right_digit;
+    int is_negative = 0; /* binary use */
     
     printf ("Enter your number.\n");
     scanf ("%i", &number);
     
-    if (number < 10)
+    if (number < 0)
     {
-        int x;
-        
-        x = -number;
-        number = x;
+        is_negative = 1;
+        number = -number;
     }
     
     do /* By definition the do statement runs at least once the program. As it checks validity on while line. */
@@ -25,6 +24,9 @@ int main (void)
     }
     while ( number != 0 );
 
+    if (is_negative)
+        printf("-");
+
     printf ("\n");
     
     return 0;
@@ -34,4 +36,4 @@ int main (void)
 // Sample Input: -8645
 // Your Output: 
 // Enter your number.
-// 5468
+// 5468-
